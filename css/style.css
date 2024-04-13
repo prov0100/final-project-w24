@@ -13,7 +13,7 @@ body {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 header .wrapper {
@@ -115,6 +115,10 @@ header div img {
     font-weight: 500;
 }
 
+.product-details {
+    padding-bottom: 1.5em;
+}
+
 #box-1 {
     background-color: #f8fafc;
 }
@@ -138,6 +142,7 @@ blockquote {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5em;
     padding: 1.5em;
+    padding-bottom: 3em;
 }
 
 .grid-2 img {
@@ -175,10 +180,6 @@ footer {
         gap: 1.5em;
     }
 
-    .product-details {
-        padding-bottom: 1.5em;
-    }
-
     .quote {
         display: flex;
         flex-direction: row;
@@ -187,7 +188,6 @@ footer {
 
     .grid-2 {
         grid-template-columns: repeat(4, 1fr);
-        padding-bottom: 2.5em;
     }
 
     nav ul li a {
