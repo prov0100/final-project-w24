@@ -96,23 +96,37 @@ header div img {
     border-radius: 4px;
 }
 
+.sweetheart {
+    padding-bottom: 1.5em;
+}
+
 .subheader {
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .red {
     margin-top: 0;
 }
 
-.button {
-    display: inline-block;
+.product-details p:nth-child(6) {
+    padding-bottom: 1em;
+}
+
+.product-details a:link, .product-details a:visited {
     background-color: #000;
     color: #fff;
     text-decoration: none;
     padding: .5em 1em;
     border-radius: .25em;
     font-weight: 500;
+    border: 2px solid #000;
+}
+
+.product-details a:hover, .product-details a:focus {
+    background-color: #f8fafc;
+    color: #000;
 }
 
 .product-details {
@@ -134,7 +148,7 @@ blockquote {
 }
 
 .try-it {
-    padding-top: 1em;
+    padding: 1em 0 0 0;
 }
 
 .grid-2 {
@@ -200,7 +214,10 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2em;
+    }
 
+    h1 {
+        margin-top: 0;
     }
 }
 
